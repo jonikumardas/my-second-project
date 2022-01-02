@@ -1,0 +1,337 @@
+/* this is for nav bar */
+#top-nav{
+    background-color: #eaae00;
+    padding: 0 7%;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10%;
+}
+#search-box{
+   background-color:#fcc302;
+   border: 0;
+   color:#ffff;
+   border-radius: 0;
+   box-shadow: 3px 6px 11px -1px #000;
+   position: relative;
+  left:59px;
+}
+#search-box::placeholder{
+    color:#ffff;
+}
+#search-icon{
+    background-color:#00becb;
+    padding:0px 20px;
+    color:#ffff;
+    border-radius: 0;
+    border:none;
+    position: relative;
+    z-index: 999;
+    
+}
+@media only screen and (max-width:768) {
+    #searchform{
+        margin-top: 20px;
+        margin-bottom:30px ;
+        position:relative;
+        left:-20px;
+
+    }
+    
+}
+@media only screen and (max-width:500px){
+    #nav-top{
+        padding: 0;
+    }
+
+
+}
+/* banner start  */
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 40px;
+}
+#bannertext h1{
+    margin-top:100px;
+    padding-bottom: 20px;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 65px;
+
+}
+#bannertext p{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+#bannertext button {
+    margin-top: 15px;
+    border: 2px solid #ffff;
+    font-size: 17px;
+    box-shadow: 3px 6px 9px #000;
+}
+#bannertext button:hover{
+    background-color: #00becb;
+    box-shadow: none;
+}
+@media only screen and (max-width:1300px){
+    #bannertext h1{
+        font-size: 40px;
+    }
+    #bannertext p{
+        margin-top:20px;
+    }
+    #image{
+        margin-top: 96px;
+    }
+
+}
+@media only screen and (max-width:780px){
+    #bannertext h1{
+        font-size: 39px;
+        margin-bottom: 50px;
+    }
+    #bannertext p{
+        margin-top:5px;
+    }
+    #image{
+        padding-top: 80px;
+    }
+
+}
+@media only screen and (max-width:500px){
+    #bannertext h1{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #bannertext p{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+}
+/* banner end  */
+
+/* service menans 3rd row start  */
+#text-service{
+    margin-top: 9%;
+}
+#text-service h2{
+        padding-bottom:4%;
+
+}
+#text-service p {
+    font-size:18px;
+    margin-bottom: 4%;
+}
+#service-button{
+    border:2px solid white;
+    background-color:#fcc302;
+    color: #ffff;
+    font-size: 18px;
+    padding: 7px 11px;
+    box-shadow: 3px 6px 9px #000;
+}
+#service-button:hover{
+    box-shadow: none;
+
+}
+#service-img{
+    margin-top: 8%;
+    background-image: cover;
+    padding-left: 5%;
+    margin-right: 4%;
+}
+/* service menans 3rd row end  */
+/* title start  */
+#title-section{
+    background-color: #fcc302;
+}
+#title-section h1{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 40px;
+
+}
+#title-section p {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+#imgefor-gup{
+    margin-right: 4%;
+}
+#imgefor-gup p{
+    margin:1%
+  
+}
+/* title end  */
+#text-service-2 {
+    margin-top: 4%;
+}
+#text-service-2 h2{
+        padding-bottom:4%;
+
+}
+#text-service-2 p {
+    font-size:18px;
+    margin-bottom: 4%;
+}
+/* new sele div start  */
+#title-section-2{
+    background-color: #fcc302;
+    padding-bottom: 5%;
+}
+#title-section-2 h1{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 40px;
+
+}
+#title-section-2 p {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+#title-section-2 #buy-button {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #00becb;
+    box-shadow: 2px 3px 9px black;
+}
+#title-section-2 #buy-button:hover{
+    background-color: #17656bb7;
+    box-shadow: none;
+
+}
+ /* 5 nuber doctor colam,stat */
+ #doctor-padding{
+    margin-right: 3%;
+ }
+ #doctor-margin{
+     margin-bottom: 5%;
+ }
+ #icon{
+     border-radius: 50%;
+     box-shadow: 2px 3px 2px #000;
+     margin-bottom: 20px;
+ }
+ #icon:hover{
+     box-shadow: none;
+     transition:0.5s;
+ }
+   /* 5 nuber doctor colam,end */
+   #cotainer-full{
+       background-image: url("img/bigimg.png");
+       background-size: cover;
+       padding:30px;
+       margin-top: 30px;
+
+   }
+      #card{
+          margin-bottom: 40px;
+        }
+        
+   #card h2{
+       margin-top: 30px;
+       text-align: center;
+       font-weight: bold;
+      
+   }
+   #card p{
+       text-align: center;
+       font-size: 18px;
+       margin-bottom: 20px;
+
+   }
+   #card-text{
+       border-left:1px solid gray;
+       border-bottom:1px solid gray;
+   }
+   #card-text h4{
+    font-weight: bold;
+    margin-top: 20px;
+  
+
+   }
+   #card-text p{
+       text-align:left;
+       color: gray;
+    
+
+   }
+   #card-text a{
+       text-decoration: none;
+      
+   }
+   #footter{
+       padding: 30px;
+       color: rgb(31, 27, 27);
+   }
+   a{
+       text-decoration: none;
+       color: #ffff;
+   }
+   #footter h2{
+       color: #ffff;
+       font-weight: bold;
+   }
+   #jon{
+       background-color: #2F3130
+   }
+   #title-futter h2{
+       text-align: right;
+       color: #fff;
+       padding-top:30px;
+       font-weight: bold;
+       
+
+   }
+   #title-futter p{
+       color: #fff;
+       text-align: right;
+   }
+
+   #serch-futter{
+
+      background-color: #fcc302; 
+      position: relative;
+      left: 50px;
+      border:none;
+      margin-left: 30%;
+    
+      
+   }
+   #futter-taligrum{
+       position: relative;
+       border: none;
+       z-index: 9999;
+       background-color: #00becb; 
+       padding: 0 30px;
+       font-size: 20px;
+       border-radius:0;
+
+   }
+   #social-icon{
+       margin-top: 10px;
+       margin-left: 79%;
+       padding: 14px;
+    
+   }
+   @media only screen and (max-width:360) {
+       #social-icon{
+        margin-left:20%;
+        padding: 14px;
+
+       }
+   }
